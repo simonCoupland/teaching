@@ -1,0 +1,5 @@
+Mouse button: Left x: 216 y: 116
+Mouse button: Left x: 322 y: 315
+Mouse button: Right x: 212 y: 185
+Mouse button: Wheel x: 213 y: 185
+Mouse button: Left x: 145 y: 203

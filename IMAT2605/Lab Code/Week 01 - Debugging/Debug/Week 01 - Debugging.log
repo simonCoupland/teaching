@@ -1,0 +1,29 @@
+﻿  main.cpp
+h:\documents\teaching\imat2605\2017\student pack\lab code\week 01 - debugging\src\main.cpp(81): error C2679: binary '>>': no operator found which takes a right-hand operand of type 'int *' (or there is no acceptable conversion)
+  d:\program files\vs2015\vc\include\istream(482): note: could be 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)'
+  d:\program files\vs2015\vc\include\istream(463): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)'
+  d:\program files\vs2015\vc\include\istream(445): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)'
+  d:\program files\vs2015\vc\include\istream(427): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)'
+  d:\program files\vs2015\vc\include\istream(408): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)'
+  d:\program files\vs2015\vc\include\istream(390): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)'
+  d:\program files\vs2015\vc\include\istream(371): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)'
+  d:\program files\vs2015\vc\include\istream(352): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)'
+  d:\program files\vs2015\vc\include\istream(334): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)'
+  d:\program files\vs2015\vc\include\istream(316): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)'
+  d:\program files\vs2015\vc\include\istream(290): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)'
+  d:\program files\vs2015\vc\include\istream(271): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)'
+  d:\program files\vs2015\vc\include\istream(236): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)'
+  d:\program files\vs2015\vc\include\istream(217): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(bool &)'
+  d:\program files\vs2015\vc\include\istream(210): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))'
+  d:\program files\vs2015\vc\include\istream(203): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+  d:\program files\vs2015\vc\include\istream(197): note: or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))'
+  d:\program files\vs2015\vc\include\istream(1104): note: or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><char,std::char_traits<char>,int*>(std::basic_istream<char,std::char_traits<char>> &&,_Ty &)'
+          with
+          [
+              _Ty=int *
+          ]
+  d:\program files\vs2015\vc\include\istream(1094): note: or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char &)'
+  d:\program files\vs2015\vc\include\istream(1087): note: or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,unsigned char *)'
+  d:\program files\vs2015\vc\include\istream(1080): note: or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char &)'
+  d:\program files\vs2015\vc\include\istream(1073): note: or       'std::basic_istream<char,std::char_traits<char>> &std::operator >><std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,signed char *)'
+  h:\documents\teaching\imat2605\2017\student pack\lab code\week 01 - debugging\src\main.cpp(81): note: while trying to match the argument list '(std::istream, int *)'

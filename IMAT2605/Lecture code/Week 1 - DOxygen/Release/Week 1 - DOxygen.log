@@ -1,0 +1,16 @@
+﻿  ball.cpp
+src\ball.cpp(5): fatal error C1083: Cannot open include file: 'ball.h': No such file or directory
+  bumper.cpp
+src\bumper.cpp(5): fatal error C1083: Cannot open include file: 'bumper.h': No such file or directory
+  game.cpp
+src\game.cpp(5): fatal error C1083: Cannot open include file: 'game.h': No such file or directory
+  main.cpp
+src\main.cpp(8): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  OBB.cpp
+src\OBB.cpp(5): fatal error C1083: Cannot open include file: 'OBB.h': No such file or directory
+  paddle.cpp
+src\paddle.cpp(5): fatal error C1083: Cannot open include file: 'paddle.h': No such file or directory
+  textureLoader.cpp
+src\textureLoader.cpp(5): fatal error C1083: Cannot open include file: 'textureLoader.h': No such file or directory
+  vector2D.cpp
+src\vector2D.cpp(5): fatal error C1083: Cannot open include file: 'vector2D.h': No such file or directory
